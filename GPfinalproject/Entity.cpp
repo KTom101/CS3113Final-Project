@@ -169,7 +169,7 @@ void Entity::Jump()
 {
     if (collidedBottom)
     {
-        velocity.y = 5.0f;
+        velocity.z = 5.0f;
     }
 }
 

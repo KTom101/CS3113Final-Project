@@ -14,7 +14,7 @@
 
 #include "Map.h"
 
-enum  EntityType { PLAYER, PLATFORM, COIN, ENEMY };
+enum  EntityType { PLAYER, PLATFORM, COIN, TILE, ENEMY };
 
 enum AIState { IDLE, WALKING};
 
